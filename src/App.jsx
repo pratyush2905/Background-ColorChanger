@@ -7,10 +7,10 @@ function App() {
       className="w-full h-screen duration-300"
       style={{ backgroundColor: color }}
     >
-      <div className="flex inset-y-0 left-0">
+      <div className="flex inset-y-0 left-0 h-full">
         <div
           className="flex flex-col gap-3 justify-around shadow-md px-4 bg-stone-300
-      py-2 w-20 h-dvh md:max-h-full"
+      py-2 w-20 h-full"
         >
           <button
             onClick={() => setColor("violet")}
